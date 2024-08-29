@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="content-center">
+                <h1>Come join us!</h1>
+                <p>We are so excited to have you here. If you haven't already, create an account to get access to exclusive offers, rewards, and discounts.</p>
+                <div class="signin-bubble">
+                    <a href="login.html" class="signin-link">Already have an account? Login.</a>
+                </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <h2>Signup</h2>
+            <form id="signupForm">
+                <input type="text" placeholder="ByteWebster" id="name" required>
+                <input type="email" placeholder="support@bytewebster.com" id="email" required>
+                <input type="password" placeholder="Password" id="password" required>
+                <!-- Error message for password -->
+                <span id="password-error" class="error-message"></span>
+                <input type="password" placeholder="Confirm Password" id="confirm-password" required>
+                <!-- Error message for confirm password -->
+                <span id="confirm-password-error" class="error-message"></span>
+                <button type="submit" class="signup-btn">Signup</button>
+            </form>
+            <div class="social-login">
+                <p>or signup with</p>
+                <div class="social-icons">
+                    <a href="#"><img src="project/images/flogo.jpeg" alt="Facebook"></a>
+                    <a href="#"><img src="project/images/maillogo.jpeg.crdownload" alt="Google"></a>
+                    <a href="#"><img src="project/images/linkdinlogo.jpeg" alt="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
+</body>
+</html>

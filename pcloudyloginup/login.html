@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>login</h2>
+        <form id="loginForm">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Type your email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Type your password" name="password" required>
+            <div class="checkbox">
+                <input type="checkbox" id="keepLoggedIn" name="keepLoggedIn">
+                <label for="keepLoggedIn">Keep me logged in</label>
+            </div>
+            <button type="submit" onclick="func()" class="btn">Log In</button>
+            <p>Don't have an account? <a href="index.html">Sign up</a></p>
+            <p><a href="#">Forgot password?</a></p>
+            <hr>
+            <div class="social-login">
+                <p>or signup with</p>
+                <div class="social-icons">
+                    <a href="#"><img src="project/images/flogo.jpeg" alt="Facebook"></a>
+                    <a href="#"><img src="project/images/maillogo.jpeg.crdownload" alt="Google"></a>
+                    <a href="#"><img src="project/images/linkdinlogo.jpeg" alt="LinkedIn"></a>
+                </div>
+        </form>
+    </div>
+    <script src="login.js"></script>
+    <body>
+<!-- <script> function func(){
+
+        
+        var email = document.getElementById("email").value;
+        var pass= document.getElementById("password").value;
+        if(email == "akanshab254@gmail.com" && pass=='1234'){
+            alert("successfully login!")
+          window.location.assign("indexpcloudy.html")
+        }
+        
+       
+    } -->
+    <!-- </script> -->
+</body>
+
+</html>
+
