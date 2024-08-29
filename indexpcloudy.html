@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pcloudy</title>
+    <link rel="stylesheet" href="indexpcloudy.css"> <!-- Make sure this points to your CSS file -->
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="logo">
+                <img src="imagesiphones/pcloudy logo.png" alt="pCloudy Logo"> <!-- Replace with the actual path to the logo -->
+                <span>Pcloudy</span> <!-- Added text beside the logo -->
+            </div>
+            <nav>
+                <a href="#">Start</a>
+                <a href="#">Dashboard</a>
+                <a href="#">My Active Sessions</a>
+                <a href="#">Reports</a>
+                <a href="#">My Data</a>
+                <a href="#">Integration</a>
+                <a href="#">Users</a>
+            </nav>
+            <button class="invite-btn">Invite Users</button>
+            <div class="connect-apps">
+                <span>Connect your apps</span>
+                <div class="app-icons">
+                    <!-- Add app icons here -->
+                </div>
+                <button>More</button>
+            </div>
+        </aside>
+        <main>
+            <header>
+                <nav>
+                    <a href="#">Start</a>
+                    <a href="#">Device List</a>
+                </nav>
+                <div class="user-controls">
+                    <span class="user-status">Paid User</span>
+                    <span class="bell-icon">🔔</span> <!-- Bell icon added here -->
+                    <button class="upgrade-btn">Upgrade</button>
+                    <a href="#" class="user-icon">👤</a>
+                </div>
+            </header>
+            <section class="content">
+                <h1>Device List</h1>
+                <div class="search-filter">
+                    <input type="search" placeholder="Search">
+                    <button class="filter-btn">Filter ▼</button> <!-- Dropdown indicator added to the Filter button -->
+                </div>
+                <h2>All Devices</h2>
+                <div class="device-grid" id="deviceGrid">
+                    <!-- Device cards will be added here dynamically -->
+                    <div class="device-card">
+                        <img src="path/to/device-image.png" alt="Device Image"> <!-- Replace with actual device images -->
+                        <p><strong>Samsung Galaxy J8</strong></p>
+                        <p>Android 9.0.0</p>
+                        <button class="connect">Connect</button>
+                    </div>
+                    <!-- Add more device cards as needed -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="indexpcloudy.js"></script> <!-- Ensure this points to your JS file -->
+</body>
+</html>
